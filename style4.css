@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serf;
+  /* overflow: hidden; */
+}
+
+body {
+ 
+  background: #16384c !important;
+}
+
+.containerma {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.containerma .carda {
+  position: relative;
+  max-width: 400px !important;
+  height: 380px !important;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out;
+  
+
+
+}
+
+.containerma .carda:hover {
+  height: 470px !important;
+}
+
+.containerma .carda .imgBx1 {
+  position: relative;
+  width: 260px !important;
+  height: 260px !important;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.containerma .carda .imgBx1 img {
+  max-width: 260px !important;
+  border-radius: 4px;
+  
+  
+}
+
+#sant {
+  width: 260px;
+}
+
+
+
+
+
+
+.containerma .carda .contenta {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.containerma .carda:hover .contenta {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -70px; 
+  transition-delay: 0.4s;
+}
+
+
+
+
+
+
+ .raise:hover, .raise:focus {
+	 box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	 transform: translateY(-0.25em);
+}
+
+ 
+ .raise {
+	 --color: #ffa260;
+	 --hover: #e5ff60;
+}
+
+ .buttonwrapper1 button {
+	 color: var(--color);
+	 transition: 0.25s;
+}
+ .buttonwrapper1 button:hover, .buttonwrapper1 button:focus {
+	 border-color: var(--hover);
+   color: rgb(223, 247, 8);
+   font-size: 15px;
+}
+
+.buttonwrapper1 button {
+	 background: none;
+	 border: 2px solid;
+	 font: inherit;
+	 line-height: 1;
+	 margin: 0.5em;
+	 padding: 1em 2em;
+}
+
+
+/* 
+sidenavbar CSS
+.aa{
+  overflow: hidden !important;
+}
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: -68PX;
+  width: 200px !important;
+  text-align: center;
+  background: linear-gradient(rgb(51, 29, 131),orange);
+  
+
+} 
+
+
+
+
+
+
+
+#about {
+  top: 20px;
+  background:linear-gradient(rgb(176, 178, 192),rgb(1, 253, 106),rgb(0, 255, 149)) ;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+  background:linear-gradient(rgb(176, 178, 192),rgb(1, 253, 106),rgb(0, 255, 149)) ;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+  background:linear-gradient(rgb(176, 178, 192),rgb(1, 253, 106),rgb(0, 255, 149)) ;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555;
+  background:linear-gradient(rgb(176, 178, 192),rgb(1, 253, 106),rgb(0, 255, 149)) ;
+} */
+
+
+
+
+.container45 .heading1 h2{
+  color: #fff;
+  text-align: left;
+  padding: 30px;
+ 
+  
+  
+
+}
+
+nav img{
+  mix-blend-mode: multiply;
+}
+
+
+
+.copywrite p{
+  text-align: center;
+
+  
+}
+
+.card-footer{
+  text-align: center;
+}
+
+
